@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel BD</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/8e91dab357.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header >
+        <nav>
+            <div class="navbar bg-base-100 ">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 menu-lg ">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#aboutsd">About</a></li>
+
+                            <li><a href="#">Destination</a></li>
+                            <li><a href="#">Search</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-xl">Travel BD</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a href="#scroll-about">About</a></li>
+                        <li><a href="#scroll-dest">Destination</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn bg-green-100 px-5 border-green-500 text-green-500 border-2">Bus <img
+                            src="B9A5-smart-ticketing-main/images/bus-icon.png" alt=""></a>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="my-10">
+            <div class="hero min-h-screen" style="background-image: url(B9A5-smart-ticketing-main/images/banner.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w-3xl">
+                        <h1 class="mb-5 text-5xl font-bold">End to End Travel With</h1>
+                        <h1 class="text-green-500 mb-12 text-5xl font-bold">Travel BD</h1>
+                        <p class="mb-14">Travel BD Express is a leading bus transportation company that operates in
+                            various regions, providing reliable and comfortable travel services to passengers.</p>
+                        <a href="#scroll-down"><button
+                                class="btn border-none text-black bg-green-500 text-lg font-bold px-5">Buy
+                                Tickets</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-10">
+            <div class="text-center">
+                <div>
+                    <h1 class="font-bold text-2xl my-10">Best Offers For You</h1>
+                </div>
+                <div class="flex justify-center flex-col w-full gap-5 lg:flex-row">
+                    <div class="relative grid h-48 card bg-yellow-500 rounded-box place-items-center p-10">
+                        <div class="flex gap-20 justify-evenly">
+                            <div>
+                                <h1 class="font-bold text-2xl">15% OFF</h1>
+                                <h4 class="font-bold text-sm">on your next purchase</h4>
+                                <h4 class="font-thin text-sm">use by january 2024</h4>
+                            </div>
+                            <img class="absolute h-48 top-14 translate-x-5 -translate-y-14"
+                                src="B9A5-smart-ticketing-main/images/cupon-devider.png" alt="">
+                            <div>
+                                <h1 class="font-bold text-2xl">NEW15</h1>
+                                <h4 class="font-thin text-sm">Coupon Code</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative grid h-48 card bg-pink-400 rounded-box place-items-center p-10">
+                        <div class="flex gap-20 justify-around">
+                            <div>
+                                <h1 class="font-bold text-2xl">20% OFF</h1>
+                                <h4 class="font-bold text-sm">on your next purchase</h4>
+                                <h4 class="font-thin text-sm">use by january 2024</h4>
+                            </div>
+                            <img class="absolute h-48 top-14 translate-x-5 -translate-y-14"
+                                src="B9A5-smart-ticketing-main/images/cupon-devider.png" alt="">
+                            <div>
+                                <h1 class="font-bold text-2xl">COUPLE20</h1>
+                                <h4 class="font-thin text-sm">Coupon Code</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div><button
+                        class="my-8 btn border-solid border-green-500 text-green-500 bg-white text-lg font-bold px-5">See
+                        All Offers</button></div>
+            </div>
+        </section>
+
+        
+        <section class="bg-slate-100 border-t-2 border-green-400 rounded-2xl my-10">
+            <div>
+             
+                
+                <div id="scroll-dest"  class="my-10">
+                    <h1 class="mx-auto text-3xl font-bold mb-10 text-center">Travel BD</h1>
+                    <h3 class="mx-auto text-lg font-medium w-3/4 text-center mb-10">Through the company's website or
+                        mobile app, passengers can conveniently search for available routes, select travel dates, choose
+                        seats, and make secure online payments.</h3>
+                </div>
+                <div class="flex flex-col w-full gap-10">
+                    <div class="relative mx-auto grid h-auto card w-3/4 bg-white rounded-box">
+                        <div class="flex justify-around items-center bg-white">
+                            <div>
+                                <div class="flex justify-between ml-32 my-10 p-7">
+                                    <div class="flex gap-2">
+                                        <div><img src="B9A5-smart-ticketing-main/images/bus-logo.png" alt=""></div>
+                                        <div>
+                                            <h1 class="text-2xl font-bold">Travel BD</h1>
+                                            <h4>Coach-019-WEB ! Economic</h4>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <button class="btn bg-green-100">
+                                            <div><img src="B9A5-smart-ticketing-main/images/seat-green.png" alt="">
+                                            </div>
+                                            <p class="text-green-500"><span id="seat-left">8</span> seats left</p>
+                                        </button>
+                                    </div>
+                                </div>
+                           
+                                
+                                <div class="bg-gray-100 ml-32 my-10 p-7 rounded-md">
+                                    <div class="flex justify-between align-middle my-3">
+                                        <div>
+                                            <p>Route</p>
+                                        </div>
+                                        <div>
+                                            <p class="font-bold">Dhaka-Sylhet</p>
+                                        </div>
+                                    </div>
+                                    <hr class="border-dashed font-bold">
+                                    <div class="flex justify-between align-middle my-3">
+                                        <div>
+                                            <p>Departure Time</p>
+                                        </div>
+                                        <div>
+                                            <p class="font-bold">9:00 P.M</p>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="flex justify-between gap-3 align-middle mt-6">
+                                        <div class="bg-gray-300 rounded-md">
+                                            <p class="p-2">Boarding Point - Laximpur</p>
+                                        </div>
+                                        <div class="bg-gray-300 rounded-md">
+                                            <p class="p-2">Dropping Point - Bagura</p>
+                                        </div>
+                                        <div class="bg-gray-300 rounded-md">
+                                            <p class="p-2">Est. Time - 11 Hour</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="B9A5-smart-ticketing-main/images/fare.png" alt="">
+                                <h1 class="font-bold text-3xl">550 TK</h1>
+                                <p class="text-gray-300 font-bold">Per Seat</p>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- ticket counter  -->
+                     <div id="scroll-down" class="grid h-[800px] card bg-white rounded-box">
+                        <div class="grid grid-cols-2">
+                            <!-- seats -->
+                            <div class="p-5">
+                                <div id="warning">
+                                    <h1 class="text-2xl font-bold">Select Your Seat</h1>
+
+                                </div>
+
+                                <div class="flex justify-between mb-5">
+                                    <div class="flex"><img src="B9A5-smart-ticketing-main/images/seat-gray.png" alt="">
+                                        <p>Available</p>
+                                    </div>
+                                    <div class="flex"><img src="B9A5-smart-ticketing-main/images/seat-green-filled.png"
+                                            alt="">
+                                        <p>Selected</p>
+                                    </div>
+                                </div>
+                                <!-- seat section -->
+                                <div id="main-seat" class="grid grid-cols-4 gap-5 ml-8">
+                                    <div id="A1" class="w-16 h-8 bg-gray-300 text-center items-center rounded-md">A1
+                                    </div>
+                                    <div id="A2" class="w-16 h-8 bg-gray-300 text-center items-center rounded-md">A2
+                                    </div>
+                                    <div id="A3" class="w-16 h-8 bg-gray-300 text-center items-center rounded-md">A3
+                                    </div>
+                                    <div id="A4" class="w-16 h-8 bg-gray-300 text-center items-center rounded-md">A4
+                                    </div>
+                                    <div id="B1" class="w-16 h-8 bg-gray-300 text-center items-center rounded-md">B1
+                                    </div>
+                                    <div id="B2" class="w-16 h-8 bg-gray-300 text-center items-center rounded-md">B2
+                                    </div>
+                                    <div id="B3" class="w-16 h-8 bg-gray-300 text-center items-center rounded-md">B3
+                                    </div>
+                                    <div id="B4" class="w-16 h-8 bg-gray-300 text-center items-center rounded-md">B4
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- accounts -->
+                            <div class="my-10">
+                                <div class="p-5 bg-gray-200 rounded-lg mt-3">
+                                    <div>
+                                        <h1 class="text-2xl font-bold">Select Your Seat</h1>
+                                    </div>
+                                    <div>
+                                        <div class="overflow-x-auto">
+                                            <table class="table">
+                                                <!-- head -->
+                                                <thead>
+                                                    <tr>
+                                                        <th>Seat <span id="seat-chosen"
+                                                                class="bg-green-500 text-white px-3 rounded-md">0</span>
+                                                        </th>
+                                                        <th>Class</th>
+                                                        <th>Price</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody id="seat-name">
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="flex justify-around gap-0 my-3">
+                                        <div>
+                                            <p>Total Price</p>
+                                        </div>
+                                        <div>
+                                            <p>BDT <span id="total-price">0</span></p>
+                                        </div>
+                                    </div>
+                                    <div id="append-discount" class="ml-32">
+
+                                    </div>
+
+                                    <div id="remove" class="text-center my-6">
+                                        <p class="text-blue-700">Select 4 seats for an unbelievable discount! dont copy/paste</p>
+                                        <div id="delete-field" class="join">
+                                            <input type="text" id="input-field" class="input input-bordered join-item"
+                                                placeholder="Have any coupons?" />
+                                            <button id="apply-button" disabled
+                                                class="btn join-item rounded-md bg-green-400 text-white">Apply</button>
+                                        </div>
+                                    </div>
+                                    <div class="flex justify-around gap-48">
+                                        <div>
+                                            <p>Grand Total</p>
+                                        </div>
+                                        <div>
+                                            <p>BDT <span id="grand-total">0</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p class="my-3 font-bold">Passenger Name :</p>
+                                    <label class="input input-bordered flex items-center gap-2 my-3">
+                                        <input type="text" class="grow" placeholder="Enter Your Name" required />
+                                    </label>
+                                    <p class="my-3 font-bold">Phone Number : <span
+                                            class="text-gray-500 opacity-50">(please insert 11 numbers)</span></p>
+                                    <label class="input input-bordered flex items-center gap-2 my-3">
+                                        <input id="number" type="number" class="grow"
+                                            placeholder="Enter Your Phone Number" required />
+                                    </label>
+                                    <p class="my-3 font-bold">Email ID :</p>
+                                    <label class="input input-bordered flex items-center gap-2 my-3">
+                                        <input type="text" class="grow" placeholder="Enter Your Email" />
+                                    </label>
+                                    <div>
+                                        <!-- Open the modal using ID.showModal() method -->
+                                        <button id="confirm" disabled
+                                            class="btn px-60 bg-green-600 text-black font-semibold ml-32 my-5"
+                                            onclick="my_modal_1.showModal()"><span class="text-black font-bold text-xl">Confirm</span></button>
+                                        <dialog id="my_modal_1" class="modal">
+                                            <div class="modal-box">
+                                                <img class="ml-40" src="B9A5-smart-ticketing-main/images/success.png"
+                                                    alt="">
+                                                <h1 class="text-green-500 text-3xl font-bold ml-40">Success</h1>
+                                                <p class="py-4">Thank you for Booking Our Bus Seats. We are working hard
+                                                    to find the best service and deals for you. </p>
+                                                <div class="modal-action">
+                                                    <form method="dialog">
+                                                        <!-- if there is a button in form, it will close the modal -->
+                                                        <button
+                                                            class="btn text-white bg-green-500 font-bold text-xl px-12 mr-36">Continue</button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </dialog>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- end of account -->
+                        </div>
+                    </div>
+                    <!-- end of ticket counter -->
+                </div>
+            </div>
+        </section>
+
+        <section id="scroll-about" class="bg-green-500 py-10" >
+            <div class="container mx-auto text-center">
+                <h2 class="text-2xl font-bold mb-4">About Travel BD</h2>
+                <p class="text-gray-700 px-6 font-semibold">Travel BD is committed to making your journey smooth and memorable. We provide top-notch transportation services, ensuring safety, comfort, and reliability. Our platform allows you to book tickets effortlessly, offering exclusive deals and discounts to make your travel experience even better. Explore Bangladesh with us!</p>
+                <div class="mt-4">
+                    <a href="#" class="btn bg-green-500 text-white font-bold px-6">Learn More</a>
+                </div>
+            </div>
+        </section>
+        
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
